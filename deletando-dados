@@ -1,0 +1,7 @@
+--excluir bart da tabela pessoa
+
+delete from pessoa where id = 3 
+
+select * from pessoa where nome = 'Bart'
+
+select * from pessoa 

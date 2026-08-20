@@ -1,0 +1,23 @@
+--selecionar pessoas sem renda
+
+select * from pessoa where renda = 0
+
+--selecionar pessoas com renda 
+
+select * from pessoa where renda > 0 
+
+--selecionar pessoas com menos de 20 anos
+
+select * from pessoa where idade < 20
+
+--selecionar as pessoas com mais de 30 anos
+
+select * from pessoa where idade > 30
+
+-selecionar pessoas com nome com M
+
+select * from pessoa where nome like 'M%'
+
+-selecionar pessoas em ordem alfabetica 
+
+select * from pessoa order by nome

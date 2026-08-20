@@ -1,0 +1,14 @@
+--update 
+
+--alterar renda do Bart para 6500
+--alterar a idade do homer para 19
+--select * from pessoa
+update pessoa set renda = 6500 where id = 3
+
+update pessoa set idade = 19 where id = 3
+
+update pessoa set renda = 6500, idade = 19 where id = 3
+
+
+select * from pessoa
+
